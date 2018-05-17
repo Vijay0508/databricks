@@ -1,0 +1,7 @@
+WD Code	WD Name				Sup Number	Month	ItemNumber	Brand_Name		LineCode	ShipdQty	Total Cost	QOH	CurRepCost	PartTermId	PartTermName			MfrLabel
+FMPAR	Factory Motor Parts Co		7		2017-12	11-20		ANCO WIPER PRODUCTS	ANC		4		20.592					
+QUICK	QUICK Auto Parts		QUI02		2017-12	173924		ANCO WIPER PRODUCTS	ANC		1		7.59					
+POJAD	Deb's Auto Parts		3		2017-12	30-20OE		ANCO WIPER PRODUCTS	ANC		3		11.04					8852		Windshield Wiper Blade		Winter Wiper Blade
+POETG	ETG AUTO Supplies		20		2017-12	30-22OE		ANCO WIPER PRODUCTS	ANC		2		0					8852		Windshield Wiper Blade		Winter Wiper Blade
+POJAD	Deb's Auto Parts		2		2017-12	30-22OE		ANCO WIPER PRODUCTS	ANC		2		7.26					8852		Windshield Wiper Blade		Winter Wiper Blade
+POJAD	Deb's Auto Parts		3		2017-12	30-22OE		ANCO WIPER PRODUCTS	ANC		13		48.63
