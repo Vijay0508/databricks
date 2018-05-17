@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace ConsoleApplication1
+{
+    public class Program
+    {
+        public static int funtool(string filename)
+        {
+
+            int na, n;
+            // result = Path.GetFileName(fileName);
+
+
+            string[] integerStrings = filename.Split(new char[] { ' ', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+
+            int[] integers = new int[integerStrings.Length];
+
+            for (n = 0; n < integerStrings.Length; n++)
+            {
+                integers[n] = int.Parse(integerStrings[n]);
+        }
+            na = integers[n];
+            return na;
+        }
+
+        public static void Main(string[] args)
+        {
+            int k;
+            k = funtool("apa1");
+            Console.WriteLine(k);
+        }
+    }
+
+
+}
+
+/*public static class TextTools
+{
+    /// <summary>
+    /// Uppercase first letters of all words in the string.
+    /// </summary>
+    public static string UpperFirst(string s)
+    {
+        return Regex.Replace(s, @"\b[a-z]\w+", delegate (Match match)
+        {
+            string v = match.ToString();
+            return char.ToUpper(v[0]) + v.Substring(1);
+        });
+    }
+}*/
